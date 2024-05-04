@@ -11,6 +11,6 @@ void appendToFile(const std::string& filePath, const std::string& content)
 
 int main()
 {
-    appendToFile("file.txt", "Appended content.\n");
+    appendToFile("file.txt", "append\n");
     return 0;
 }
